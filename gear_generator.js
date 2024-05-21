@@ -1,35 +1,37 @@
+//Imports the chromium module from Playwright and the fs module from the file system operations.
 const { chromium } = require('playwright');
 const fs = require("fs");
 
+//Launches a Chromium browser instance with a visible broweser window.
 (async () => {
     const browser = await chromium.launch({
         headless: false
     });
+
+    //Creates a new browser context and a new page within that context.
     const context = await browser.newContext();
     const page = await context.newPage();
+
+    //It navigates to the Gear Generator website
     await page.goto('https://www.geargenerator.com/');
-    await page.locator('#closebanner path').click();
-    
 
     try {
-
+        //It clicks on clear the Clear button to reamove the existing gear configurations 
         await page.getByRole('button', { name: 'Clear' }).click();
         
-
-        // Read the JSON file
+        //Reads the JSON file
         const jsonData = fs.readFileSync('gear.json', 'utf8');
 
-        // Parse the JSON data into a JavaScript object
+        //Parses the JSON data into a JavaScript object
         const data = JSON.parse(jsonData);
        
-
-        // Iterate over each test case in the data
+        //Iterates over each test case in the data
         for (const testCase of data) {
             console.log("Test ID:", testCase.id);
 
             let firstTime = true;
 
-            // Iterate over each gear in the current test case
+            //Iterates over each gear in the current test case
             for (const gear of testCase.gears) {
                 console.log("N:", gear.N);
                 console.log("P:", gear.P);
@@ -56,11 +58,13 @@ const fs = require("fs");
                 
                                            
 
-                await page.waitForTimeout(500); // Wait for some time for the form to update
+                await page.waitForTimeout(500); // Wait for some time for the form to update.
+
+                //Takes a screenshot of the page, saving it with a filename based on the test case ID. 
                 await page.screenshot({ path: `geargenerator-${testCase.id}.png` });
             }
 
-               
+            //   
             await page.getByRole('button', { name: 'Clear' }).click();
             
         } 
