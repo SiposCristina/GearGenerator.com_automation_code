@@ -8,7 +8,7 @@ The functionality of the Gear Generator application is working as expected. The 
 </p><br>
 <p>Below you can find the screenshots of the generated results<br>
 
-Test number 1  
+**Test number 1**
 ![geargenerator-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/40bcf65d-2dff-4a16-be02-8b647c1260cd)
 
 Test number 2
