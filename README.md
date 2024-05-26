@@ -6,7 +6,7 @@
 <h3>Test Results</h3><br> <p> The application appears to be stable and functional. The interface is intuitive and easy to navigate.<br>
 The functionality of the Gear Generator application is working as expected. The application successfully handles single gear with accurate details but also supports adding multiple gears and each gear is added correctly with the specified details. The interaction between the input fields and the output is correct. All fields (Number of teeth, Diametral pitch, Pitch diameter, Pressure Angle) are functioning as intended.
 </p><br>
-<p>Below you can find the screenshots of the generated results<br>
+<p>Below you can find the screenshots of the generated results for gear.json file:<br>
 
 **Test number 1**
 ![geargenerator-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/40bcf65d-2dff-4a16-be02-8b647c1260cd)
@@ -14,27 +14,27 @@ The functionality of the Gear Generator application is working as expected. The 
 **Test number 2**
 ![geargenerator-test number 2](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/c33ee5b6-262d-4e5f-8250-bf5555a1508c)
 
-#### Test number 3 
+**Test number 3** 
 ![geargenerator-test number 3](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/9aa1b85a-ec95-4abd-8927-cac6e139d751)
 
-Test number 4
+**Test number 4**
 ![geargenerator-test number 4](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/8eedac12-d612-4fdc-ba49-355853537cc8)
 
-Test number 5
+**Test number 5**
 ![geargenerator-test number 5](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/4006a959-c37f-4f14-af50-7ad2f9cd4d66)
 
-Test number 6
+**Test number 6**
 ![geargenerator-test number 6](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/6c8c3e04-7fc3-43e3-b9bc-46f3141092f5)
 
-Test number 7
+**Test number 7**
 ![geargenerator-test number 7](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/7ae86582-9d20-45a6-935c-65b7d6da94cf)
 
-Test number 8
+**Test number 8**
 ![geargenerator-test number 8](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/d1b258bc-b546-4dba-88dd-b29f0fa6b369)
 
-Test number 9
+**Test number 9**
 ![geargenerator-test number 9](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/b97cd8c9-f282-4534-8290-8b20770d4247)
 
-Test number 10
+**Test number 10**
 ![geargenerator-test number 10](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/4ffe40d4-94a2-4982-920e-749514b6aa74)
 
