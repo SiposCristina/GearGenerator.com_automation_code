@@ -41,14 +41,16 @@ const fs = require("fs");
                 const P = gear.P; // Define P using the value from gear.P
                 const PA = gear.PA; // Define PA using the value from gear.PA
 
-                 
+                // This condition checks if the variable "firstTime" is false or not. If "!firstTime" is true it clicks on the "Add new" button.
+                If "!firstTime" is false then it not clicks the "Add new" button.
                 if (!firstTime){
                     await page.getByRole("button", {name: "Add New"}).click();
                 } else {
                     firstTime=false
-                } 
-                    
-               
+                }    
+
+                // Locates input fields by their lable
+                // Clicks on them, and fills them with data
                 await page.getByLabel('Number of teeth* (N):').click();
                 await page.getByLabel('Number of teeth* (N):').fill(gear.N.toString());
                 await page.getByLabel('Diametral pitch (P):').click();
@@ -60,16 +62,15 @@ const fs = require("fs");
 
                 await page.waitForTimeout(500); // Wait for some time for the form to update.
 
-                //Takes a screenshot of the page, saving it with a filename based on the test case ID. 
+                // Takes a screenshot of the page, saving it with a filename based on the test case ID. 
                 await page.screenshot({ path: `geargenerator-${testCase.id}.png` });
             }
 
-            //   
+            // Finds a button on the web page, and the visible text content "Clear", then clicks on it   
             await page.getByRole('button', { name: 'Clear' }).click();
             
         } 
-
-        
+     
     } catch (error) {
         console.error("Error occurred:", error);
     } finally {
