@@ -66,6 +66,7 @@ In the <strong>test number 9</strong> can be observed a <strong>bug</strong>. Th
 ![geargenerator-test number 10](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/4ffe40d4-94a2-4982-920e-749514b6aa74)
 <br>
 <br>
+<br>
 
 I have also created a JSON file where each test scenario has two gears. While the "Number of teeth" (N) remains constant for both gears, the "Diameter pitch" (P) has a different value. This test serves to highlight the mathematical relationship between “N” and “P”. Upon analyzing the screenshots, you can observe that "Pitch diameter" (D) changes its value when “P” changes its value.<br>
 For each test, the initial screenshot displays the parameters of the first gear, followed by a second screenshot presenting the parameters for the second gear. It can be observed that while the "Number of teeth" (N) remains constant, and the "Diametral pitch" (P) changes its value, the "Pitch diameter" (D) also changes its value.
