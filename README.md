@@ -6,6 +6,10 @@
 <h3>Test Results</h3><br> <p> The application appears to be stable and functional. The interface is intuitive and easy to navigate.<br>
 The functionality of the Gear Generator application is working as expected. The application successfully handles single gear with accurate details but also supports adding multiple gears and each gear is added correctly with the specified details. The interaction between the input fields and the output is correct. All fields (Number of teeth, Diametral pitch, Pitch diameter, Pressure Angle) are functioning as intended.
 </p><br>
+
+<p>Below you can find the screenshots of the generated results for <strong>GearLimits.json</strong> file:<br>
+
+
 <p>Below you can find the screenshots of the generated results for <strong>gear.json</strong> file:<br>
 
 **Test number 1**
