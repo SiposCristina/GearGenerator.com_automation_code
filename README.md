@@ -9,8 +9,23 @@ The functionality of the Gear Generator application is working as expected. The 
 
 <p>Below you can find the screenshots of the generated results for <strong>GearLimits.json</strong> file:<br>
 
+**Test number 1**
+![geargenerator-GearLimits-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/2c1c3717-f0b6-41fa-b16d-5b8fb949276b)
 
-<p>Below you can find the screenshots of the generated results for <strong>gear.json</strong> file:<br>
+**Test number 2**
+![geargenerator-GearLimits-test number 2](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/1a8aab6b-ac7a-4dca-9df6-b85a2e7fc841)
+
+**Test number 3**
+![geargenerator-GearLimits-test number 3](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/ab4dbe60-17a1-4516-b62d-0e90aef30ff6)
+
+**Test number 4**
+![geargenerator-GearLimits-test number 4](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/5c8d973d-6a90-4105-80c8-5f850d000da8)
+
+**Test number 5**
+![geargenerator-GearLimits-test number 5](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/dc1843ae-8e73-47ef-883a-8d91ef935211)
+
+
+<p>And below you can find the screenshots of the generated results for <strong>gear.json</strong> file:<br>
 
 **Test number 1**
 ![geargenerator-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/40bcf65d-2dff-4a16-be02-8b647c1260cd)
