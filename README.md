@@ -28,7 +28,11 @@ Each screenshot corresponds to a test scenario with the limits (either minimum o
 ![geargenerator-GearLimits-test number 5](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/dc1843ae-8e73-47ef-883a-8d91ef935211)
 
 
-<p>And below you can find the screenshots of the generated results for <strong>gear.json</strong> file:<br>
+
+<p>Below you can find the screenshots of the generated results for <strong>gear.json</strong> file.<br>
+The parameters specified in the gear.json file are random inputs for the Number of teeth (N) and Diametral pitch (P) fields.<br>
+In the test number 9 can be observed a <strong>bug</strong>. The teeth of the gear overlapts the teeth of the other gear.
+
 
 **Test number 1**
 ![geargenerator-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/40bcf65d-2dff-4a16-be02-8b647c1260cd)
