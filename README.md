@@ -8,7 +8,8 @@ The functionality of the Gear Generator application is working as expected. The 
 </p><br>
 
 <p>Below you can find the screenshots of the generated results for <strong>GearLimits.json</strong> file.<br>
-The parameters specified in the GearLimits.json file define the limits of the Number of teeth (N) and Diametral pitch (P) fields.
+The parameters specified in the <strong>GearLimits.json</strong> file define the limits of the Number of teeth (N) and Diametral pitch (P) fields.
+Each screenshot corresponds to a test scenario with the limits (either minimum or maximum) of the “Number of teeth” (N) and the “Diametral pitch” (P) and their combinations. Except for the screenshot from test number 5, all four gears are visible, each one representing one of these limits.
 
 
 **Test number 1**
