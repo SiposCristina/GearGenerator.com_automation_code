@@ -7,5 +7,15 @@
 The functionality of the Gear Generator application is working as expected. The application successfully handles single gear with accurate details but also supports adding multiple gears and each gear is added correctly with the specified details. The interaction between the input fields and the output is correct. All fields (Number of teeth, Diametral pitch, Pitch diameter, Pressure Angle) are functioning as intended.
 </p><br>
 <p>Below you can find the screenshots of the generated results<br>
-(https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/92011abd-1129-44cb-b94a-a78a7e66df37)
+
+![geargenerator-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/bb85013e-713a-416c-8ef3-861112cc9e42)
+![geargenerator-test number 2](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/4e527256-28ad-453d-9eab-8670014b7dff)
+![geargenerator-test number 3](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/9aa1b85a-ec95-4abd-8927-cac6e139d751)
+![geargenerator-test number 4](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/8eedac12-d612-4fdc-ba49-355853537cc8)
+![geargenerator-test number 5](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/4006a959-c37f-4f14-af50-7ad2f9cd4d66)
+![geargenerator-test number 6](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/6c8c3e04-7fc3-43e3-b9bc-46f3141092f5)
+![geargenerator-test number 7](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/7ae86582-9d20-45a6-935c-65b7d6da94cf)
+![geargenerator-test number 8](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/d1b258bc-b546-4dba-88dd-b29f0fa6b369)
+![geargenerator-test number 9](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/b97cd8c9-f282-4534-8290-8b20770d4247)
+![geargenerator-test number 10](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/4ffe40d4-94a2-4982-920e-749514b6aa74)
 
