@@ -67,5 +67,5 @@ In the <strong>test number 9</strong> can be observed a <strong>bug</strong>. Th
 <br>
 <br>
 
-I have also created a JSON file where each test scenario has two gears. While the Number of teeth (N) remains constant for both gears, the Diameter pitch (D) has a different value. This test serves to highlight the mathematical relationship between “N” and “P”. Upon analyzing the screenshots, you can observe that Pitch diameter (D) changes its value when “P” changes its value.
+I have also created a JSON file where each test scenario has two gears. While the Number of teeth (N) remains constant for both gears, the Diameter pitch (P) has a different value. This test serves to highlight the mathematical relationship between “N” and “P”. Upon analyzing the screenshots, you can observe that Pitch diameter (D) changes its value when “P” changes its value.
 
