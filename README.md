@@ -11,7 +11,7 @@ The functionality of the Gear Generator application is working as expected. The 
 **Test number 1**
 ![geargenerator-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/40bcf65d-2dff-4a16-be02-8b647c1260cd)
 
-Test number 2
+##### Test number 2
 ![geargenerator-test number 2](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/4e527256-28ad-453d-9eab-8670014b7dff)
 
 Test number 3
