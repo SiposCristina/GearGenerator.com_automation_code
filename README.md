@@ -6,7 +6,6 @@
 <h3>Test Results</h3><br> <p> The application appears to be stable and functional. The interface is intuitive and easy to navigate.<br>
 The functionality of the Gear Generator application is working as expected. The application successfully handles single gear with accurate details but also supports adding multiple gears and each gear is added correctly with the specified details. The interaction between the input fields and the output is correct. All fields (Number of teeth, Diametral pitch, Pitch diameter, Pressure Angle) are functioning as intended.
 </p><br>
-
 <p>Below you can find the screenshots of the generated results for <strong>GearLimits.json</strong> file.<br>
 The parameters specified in the <strong>GearLimits.json</strong> file define the limits of the Number of teeth (N) and Diametral pitch (P) fields.
 Each screenshot corresponds to a test scenario with the limits (either minimum or maximum) of the “Number of teeth” (N) and the “Diametral pitch” (P) and their combinations. Except for the screenshot from test number 5, all four gears are visible, each one representing one of these limits.
