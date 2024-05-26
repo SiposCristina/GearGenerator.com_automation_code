@@ -7,7 +7,7 @@
 The functionality of the Gear Generator application is working as expected. The application successfully handles single gear with accurate details but also supports adding multiple gears and each gear is added correctly with the specified details. The interaction between the input fields and the output is correct. All fields (Number of teeth, Diametral pitch, Pitch diameter, Pressure Angle) are functioning as intended.
 </p><br>
 <p>Below you can find the screenshots of the generated results<br>
-<b>Test number 1</b><br>
+Test number 1
 ![geargenerator-test number 1](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/bb85013e-713a-416c-8ef3-861112cc9e42)
 
 Test number 2
