@@ -2,13 +2,24 @@
 
 <h3>Product Information</h3> <p> Gear Generator is a tool for creating involute spur gears. The Gear Generator may compose full gear layouts with connected gears to design multiple gears system with control of than be input/output ratio and rotation speed. Gears can be animated at various speeds to demonstrate working mechanisms. Gear Generator can be accessed <a href="https://geargenerator.com/">here.</a> </p>
 
-<h3>Description</h3> <p>This script automates the operation of gear generator functionality using Playwright. After launching a Chromium browser, it navigates to the Gear Generator site. Then it reads gear parameters from a JSON file (gear.json, gearLimits.json and geadDfield.json). The script handles multiple test cases, iterating through each one to test the functionality, and accuracy of the application features. After executing each test case, it captures a screenshot of the generated gear configuration. After completing each test case, it closes the browser. This automated process efficiently tests various gear configuration in a shorter time frame. By providing the screenshots of the generated results, it enables detailed analysis. </p>
+<h3>Description</h3> <p>This script automates the operation of gear generator functionality using Playwright. After launching a Chromium browser, it navigates to the Gear Generator site. Then it reads gear parameters from a JSON file (gear.json, gearLimits.json and geadDfield.json). The script handles multiple test cases, iterating through each one to test the functionality, and accuracy of the application features.<br> 
+After executing each test case, it captures a screenshot of the generated gear configuration. Upon completing each test case, it closes the browser. This automated process efficiently tests various gear configuration in a shorter time frame. 
+<br>
+By capturing the screenshots of the generated results, enables a detailed assay of specific fields’ behavior. The tester evaluates the screenshots to identify any discrepancies, bugs, or areas that can be improved in the gear generator application. 
+<br>
+The automated assay, throughout the screenshots, assists the tester to identify:
+•	Whether the fields handle valid and invalid inputs as expected 
+•	How the input fields directly impact the generated gears
+•	The correctness of interaction between the gears
+•	The accurate representation of mathematical relationships among the fields
+</p>
+<br>
 <h3>Test Results</h3> <p> The application appears to be stable and functional. The interface is intuitive and easy to navigate.<br>
 The functionality of the Gear Generator application is working as expected. The application successfully handles single gear with accurate details but also supports adding multiple gears and each gear is added correctly with the specified details. The interaction between the input fields and the output is correct. All fields (Number of teeth, Diametral pitch, Pitch diameter, Pressure Angle) are functioning as intended.
 </p><br>
 <p>Below you can find the screenshots of the generated results for <strong>gearLimits.json</strong> file.<br>
 The parameters specified in the <strong>gearLimits.json</strong> file define the limits of the Number of teeth (N) and Diametral pitch (P) fields.
-Each screenshot corresponds to a test scenario with the limits (either minimum or maximum) of the “Number of teeth” (N) and the “Diametral pitch” (P) and their combinations. Except for the screenshot from test number 5, all four gears are visible, each one representing one of these limits.
+Each screenshot corresponds to a test scenario with the limits (either minimum or maximum) of the “Number of teeth” (N) and the “Diametral pitch” (P) and their combinations. Except for the screenshot from test number 5 (where are displayed all four gears), all four gears are visible, each one representing one of these limits.
 
 
 **Test number 1**
