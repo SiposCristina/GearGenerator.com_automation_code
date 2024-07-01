@@ -5,9 +5,12 @@
 <h3>Description</h3> <p>This script automates the operation of gear generator functionality using Playwright. After launching a Chromium browser, it navigates to the Gear Generator site. Then it reads gear parameters from a JSON file (gear.json, gearLimits.json and geadDfield.json). The script handles multiple test cases, iterating through each one to test the functionality, and accuracy of the application features.<br> 
 After executing each test case, it captures a screenshot of the generated gear configuration. Upon completing each test case, it closes the browser. This automated process efficiently tests various gear configuration in a shorter time frame. 
 <br>
+<br>
 By capturing the screenshots of the generated results, enables a detailed assay of specific fields’ behavior. The tester evaluates the screenshots to identify any discrepancies, bugs, or areas that can be improved in the gear generator application. 
 <br>
-The automated assay, throughout the screenshots, assists the tester to identify:<br>
+<br>
+The automated assay, throughout the screenshots, assists the tester to identify:
+<br>
 •	Whether the fields handle valid and invalid inputs as expected<br>
 •	How the input fields directly impact the generated gears<br>
 •	The correctness of interaction between the gears<br>
