@@ -7,11 +7,11 @@ After executing each test case, it captures a screenshot of the generated gear c
 <br>
 By capturing the screenshots of the generated results, enables a detailed assay of specific fields’ behavior. The tester evaluates the screenshots to identify any discrepancies, bugs, or areas that can be improved in the gear generator application. 
 <br>
-The automated assay, throughout the screenshots, assists the tester to identify:
-•	Whether the fields handle valid and invalid inputs as expected 
-•	How the input fields directly impact the generated gears
-•	The correctness of interaction between the gears
-•	The accurate representation of mathematical relationships among the fields
+The automated assay, throughout the screenshots, assists the tester to identify:<br>
+•	Whether the fields handle valid and invalid inputs as expected<br>
+•	How the input fields directly impact the generated gears<br>
+•	The correctness of interaction between the gears<br>
+•	The accurate representation of mathematical relationships among the fields<br>
 </p>
 <br>
 <h3>Test Results</h3> <p> The application appears to be stable and functional. The interface is intuitive and easy to navigate.<br>
