@@ -17,12 +17,10 @@ The automated assay, throughout the screenshots, assists the tester to identify:
 •	The accurate representation of mathematical relationships among the fields<br>
 </p>
 <br>
-<h3>Test Results</h3> <p> The application appears to be stable and functional. The interface is intuitive and easy to navigate.<br>
-The functionality of the Gear Generator application is working as expected. The application successfully handles single gear with accurate details but also supports adding multiple gears and each gear is added correctly with the specified details. The interaction between the input fields and the output is correct. All fields (Number of teeth, Diametral pitch, Pitch diameter, Pressure Angle) are functioning as intended.
+<h3>Test Results</h3> <p> The application appears to be stable and functional. The functionality of the Gear Generator application is working as expected, however, when using bad data, the data is accepted and no error message is displayed. The application successfully handles single gear but also supports adding multiple gears and each gear is added correctly with the specified details. However, at different inputs in the Pressure Angle (PA) field, the teeth of the gear overlap the teeth of the other gear The interaction between the input fields and the output is correct. 
 </p><br>
-<p>Below you can find the screenshots of the generated results for <strong>gearLimits.json</strong> file.<br>
-The parameters specified in the <strong>gearLimits.json</strong> file define the limits of the Number of teeth (N) and Diametral pitch (P) fields.
-Each screenshot corresponds to a test scenario with the limits (either minimum or maximum) of the “Number of teeth” (N) and the “Diametral pitch” (P) and their combinations. Except for the screenshot from test number 5 (where are displayed all four gears), all four gears are visible, each one representing one of these limits.
+<p>BBelow you can find the screenshots of the generated results for gearLimits.json file.
+The parameters specified in the gearLimits.json file define the limits of the Number of teeth (N) and Diametral pitch (P) fields. Each screenshot corresponds to a test scenario with the limits (either minimum or maximum) of the “Number of teeth” (N) and the “Diametral pitch” (P) and their combinations. Except for the screenshot from test number 5 (where all four gears are displayed), all four gears are visible, each representing one of these limits.
 
 
 **Test number 1**
@@ -46,7 +44,7 @@ Each screenshot corresponds to a test scenario with the limits (either minimum o
 
 <p>Below you can find the screenshots of the generated results for <strong>gear.json</strong> file.<br>
 The parameters specified in the gear.json file are random inputs for the "Number of teeth"(N) and "Diametral pitch"(P) fields.<br>
-In the <strong>test number 9</strong> can be observed a <strong>bug</strong>. The teeth of the gear overlapts the teeth of the other gear.
+In the <strong>test number 9</strong> can be observed a <strong>bug</strong>. The tooth of the gear overlapts the tooth of the other gear.
 
 
 **Test number 1**
@@ -83,7 +81,7 @@ In the <strong>test number 9</strong> can be observed a <strong>bug</strong>. Th
 <br>
 
 I have also created a JSON file (<strong>gearDfield.json</strong>) where each test scenario has two gears. While the "Number of teeth" (N) remains constant for both gears, the "Diameter pitch" (P) has a different value. This test serves to highlight the mathematical relationship between “N” and “P”. Upon analyzing the screenshots, you can observe that "Pitch diameter" (D) changes its value when “P” changes its value.<br>
-For each test, the initial screenshot displays the parameters of the first gear, followed by a second screenshot presenting the parameters for the second gear. It can be observed that while the "Number of teeth" (N) remains constant, and the "Diametral pitch" (P) changes its value, the "Pitch diameter" (D) also changes its value.
+For each test, the initial screenshot displays the parameters of the first gear, followed by a second screenshot presenting the parameters for the second gear. It can be observed that while the "Number of teeth" (N) remains constant, the "Diametral pitch" (P) changes its value, and the "Pitch diameter" (D) also changes its value.
 
 
 **Test number 1**
@@ -106,6 +104,12 @@ For each test, the initial screenshot displays the parameters of the first gear,
 ![geargenerator-test number 5-85-15-27](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/c1afda86-b44b-4ef3-b9df-38579e01365a)
 ![geargenerator-test number 5-85-35-20](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/32ad080e-a144-415c-9548-fa3eeda0dc80)
 
+<br>
+<br>
+<br>
+<p>For the “badData.json” file I selected bad data. As you can observe in the video when a decimal number is entered in the input field, the data is accepted without displaying an error message, and the gear is displayed according to the entered data.</p>
+<br>
+<p>When data below or above the limits are entered, the input automatically adjusts to the nearest boundary limit.</p>
 [e4c658c4bcea6ff90ef7c858ff508acf.webm](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/991b51fc-ed03-4b78-a635-d038a95f8f94)
 
 
