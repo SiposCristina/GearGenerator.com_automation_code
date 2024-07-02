@@ -106,5 +106,7 @@ For each test, the initial screenshot displays the parameters of the first gear,
 ![geargenerator-test number 5-85-15-27](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/c1afda86-b44b-4ef3-b9df-38579e01365a)
 ![geargenerator-test number 5-85-35-20](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/32ad080e-a144-415c-9548-fa3eeda0dc80)
 
+[e4c658c4bcea6ff90ef7c858ff508acf.webm](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/991b51fc-ed03-4b78-a635-d038a95f8f94)
+
 
 
