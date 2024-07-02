@@ -109,7 +109,7 @@ For each test, the initial screenshot displays the parameters of the first gear,
 <br>
 <p>For the “badData.json” file I selected bad data. As you can observe in the video when a decimal number is entered in the input field, the data is accepted without displaying an error message, and the gear is displayed according to the entered data.</p><br>
 <p>When data below or above the limits are entered, the input automatically adjusts to the nearest boundary limit.</p>
-[e4c658c4bcea6ff90ef7c858ff508acf.webm](https://github.com/SiposCristina/GearGenerator.com_automation_code/assets/157922599/991b51fc-ed03-4b78-a635-d038a95f8f94)
+
 
 
 
