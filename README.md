@@ -12,7 +12,7 @@ By capturing the screenshots of the generated results, enables a detailed assay 
 The automated assay, throughout the screenshots, assists the tester to identify:
 <br>
   <ul>
-  <li>Whether the fields handle valid and invalid inputs as expected</li><br>
+  <li>How it handles valid and invalid inputs</li><br>
   <li>How the input fields directly impact the generated gears</li><br>
   <li>The correctness of interaction between the gears</li><br>
   <li>The accurate representation of mathematical relationships among the fields</li>
