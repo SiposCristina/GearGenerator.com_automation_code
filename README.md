@@ -11,10 +11,10 @@ By capturing the screenshots of the generated results, enables a detailed assay 
 <br>
 The automated assay, throughout the screenshots, assists the tester to identify:
 <br>
-  •	Whether the fields handle valid and invalid inputs as expected<br>
-  •	How the input fields directly impact the generated gears<br>
-  •	The correctness of interaction between the gears<br>
-  •	The accurate representation of mathematical relationships among the fields<br>
+  - Whether the fields handle valid and invalid inputs as expected<br>
+  - How the input fields directly impact the generated gears<br>
+  - The correctness of interaction between the gears<br>
+  - The accurate representation of mathematical relationships among the fields<br>
 </p>
 <br>
 <h3>Test Results</h3> <p> The application appears to be stable and functional. The functionality of the Gear Generator application is working as expected, however, when using bad data, the data is accepted and no error message is displayed. The application successfully handles single gear but also supports adding multiple gears and each gear is added correctly with the specified details. However, at different inputs in the Pressure Angle (PA) field, the teeth of the gear overlap the teeth of the other gear The interaction between the input fields and the output is correct. 
