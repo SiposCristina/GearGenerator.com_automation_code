@@ -13,7 +13,7 @@ The automated assay, throughout the screenshots, assists the tester to identify:
 <br>
   <ul>
   <li>How it handles valid and invalid inputs</li><br>
-  <li>How the input fields directly impact the generated gears</li><br>
+  <li>How the input fields impact the generated gears</li><br>
   <li>The correctness of interaction between the gears</li><br>
   <li>The accurate representation of mathematical relationships among the fields</li>
   </ul><br>
