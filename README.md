@@ -45,7 +45,7 @@ The parameters specified in the gearLimits.json file define the limits of the Nu
 
 
 <p>Below you can find the screenshots of the generated results for <strong>gear.json</strong> file.<br>
-The parameters specified in the gear.json file are random inputs for the "Number of teeth"(N) and "Diametral pitch"(P) fields.<br>
+The parameters specified in the gear.json file are random inputs for the "Number of teeth"(N), "Diametral pitch"(P) and Pressure Angle (PA) fields.<br>
 In the <strong>test number 9</strong> can be observed a <strong>bug</strong>. The tooth of the gear overlapts the tooth of the other gear.
 
 
